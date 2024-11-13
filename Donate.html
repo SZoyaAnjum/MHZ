@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Donate</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;
+  background-image: url('https://plus.unsplash.com/premium_photo-1671650123234-85096b81babe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGlnaHQlMjBjb2xvdXJ8ZW58MHx8MHx8fDA%3D'); 
+background-repeat:no repeat;
+background-size:cover;
+}
+div {
+    height: 200px;
+    width: 400px;
+
+    position: fixed;
+    top:35%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+p{
+font-size: 50px;
+}
+.Amount-pay input{
+	background: rgba(254, 253, 253, 0.929);
+        height: 40px;
+            line-height: 40px;
+            border-radius: 20px;
+            padding: 0px 20px;
+            border: none;
+            margin-bottom: 20px;
+            color: #090909;
+}
+label{
+            color:black;
+            text-transform: uppercase;
+            font-size: 20px;
+            letter-spacing: 2px;
+            padding-left: 10px;
+        }
+.Amount-pay button {
+            background : rgb(45,126,231);
+            height: 50px;
+width:250px;
+            line-height: 40px;
+            padding: 2px;
+            font-size: 1em;
+            border-radius: 50px;
+            border: none;
+            
+            color: #bdc3c7;
+        }
+
+        .Amount-pay button {
+            background-color: #2980b9;
+            color: white;
+            cursor: pointer;
+        }
+
+        .Amount-pay button:hover {
+            background-color: #3498db;
+        }
+
+
+</style>
+</head>
+<body>
+<center>
+
+<div><h1><b>Scan Me for Donating</b></h1></div>
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/800px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="scan me" height="175px" width="175px">
+<p><b>OR</b></p>
+<section id="Amount" class="section">
+<form class="Amount-pay" action="Payment.html">
+<label>Amount</label>
+
+<input type="text" id="amt"placeholder="ENTER AMOUNT" required>
+<br><button type="submit">Pay</button></br>
+</form>
+</center>
+</body>
+</html>
